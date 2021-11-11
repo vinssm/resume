@@ -1,3 +1,4 @@
+ /* universal selector */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -67,19 +68,23 @@
     border-radius: 15px;
     text-shadow: none;
   }
+
+  /* header ends here */
   
  
   section {
     padding: 3%;
   }
   
-
+/* top bg starts here */
   .top-bg {
     background-image: url('../images/top-bg.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
     background-attachment: fixed;
+
+    /* If I wanted to blur the image for future */
        /* filter: blur(3px);
      -webkit-filter: blur(3px);     */
   }
@@ -104,8 +109,9 @@
     color: #b4f3f3;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+  /* top bg ends here */
   
-  
+  /* title section for about me  */
   .section-title {
     display: flex;
     width: 10%;
@@ -132,8 +138,11 @@
     margin-top: 1%;
     color: #000000;
   }
+
+  /* title section for about me ends */
     
 
+  /* title work section for work  */
   .section-title-work {
     display: flex;
     width: 10%;
@@ -195,11 +204,13 @@
       text-shadow: none;
 
     }
-
+/* title section for work ends */
+    
     .flex-row1{
       display: inline-flex;
     }
   
+/* div card class starts for the image  */
     .divCard{
       display: flex;
       justify-content: center;
@@ -222,6 +233,7 @@
       text-shadow: 3px 2px #000000;
     }
 
+/* div card-1 class starts for the image  */
     .divCard1{
       display: flex;
       justify-content: center;
@@ -265,6 +277,7 @@
       margin-top: 8%;
     }
 
+/* unordered list  starts here for contact us  */
     section div ul{
       display: flex;
       justify-content: center;
@@ -288,7 +301,7 @@
 section div ul li a{
   color: #024e76;
 }
-
+/* unordered list  ends here for contact us  */
 
 /* Media Screen 1200 Ends Here */
 @media screen and (max-width: 1200px) {
