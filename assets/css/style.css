@@ -1,0 +1,752 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: play;
+  }
+  
+  
+  /* HEADER / NAV BAR STYLES START */
+  
+  header {
+    display: flex;
+    padding: 20px 35px;
+    background-color: #5c5c5c;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+  
+  header h1 {
+    display: flex;
+    font-weight: bold;
+    margin: 0;
+    font-size: 200%;
+    color: #b4f3f3;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header a {
+    display: flex;
+    text-decoration: none;
+    color: #b4f3f3;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 2s ease-in;
+  }
+  
+  header nav ul li a:hover {
+    background: #b4f3f3;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+  
+ 
+  section {
+    padding: 3%;
+  }
+  
+
+  .top-bg {
+    background-image: url('../images/top-bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+       /* filter: blur(3px);
+     -webkit-filter: blur(3px);     */
+  }
+  
+  .top-bg-div {
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    text-align: center;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18%;
+    line-height: 1.2;
+    margin-left: 60%;
+  }
+  
+  .top-bg-div h2 {
+    display: flex;    
+    font-family: play;
+    font-style: oblique;
+    font-size: 45px;
+    color: #b4f3f3;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .section-title {
+    display: flex;
+    width: 10%;
+    padding: 2%;
+    font-size: 200%;    
+    color: #024e76;
+    text-align: center;
+  }
+  
+  .primary-border {
+    border-right: 3px solid #024e76;    
+    min-height: 20vh
+  }
+
+  .flex-row {
+    display: inline-flex;
+  }
+
+  section div p { 
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;    
+    text-align:justify;
+    margin-left: 4%;
+    margin-top: 1%;
+    color: #000000;
+  }
+    
+
+  .section-title-work {
+    display: flex;
+    width: 10%;
+    padding: 2%;
+    font-size: 200%;    
+    color: #024e76;
+    text-align: center; 
+    margin-top: -1%;
+  }
+
+  .work-border {
+    border-right: 3px solid #024e76;    
+    min-height: 30vh;
+  }
+  
+
+    section div img{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 75%;
+      max-height: 80%;
+      object-fit: cover;
+      margin-left: 4%;
+      margin-top: 0%;
+      border-style: solid;
+      border-width: 2%;
+      border-radius: 10px;
+      }
+    
+    .diva{
+      display: flex;
+      justify-content: center;
+      left: 50%;
+      position: relative;
+      text-align: center;
+      left: -42%;
+      bottom: -60%;
+      font-size: 40px;
+      font-weight: bold;
+      width: 80%;
+      height: 15%;
+      text-shadow: 3px 2px #000000;
+    }
+
+    section div a{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      color: #ffffff;
+      transition: 2s ease-in;
+      cursor: pointer; 
+    }
+
+    section div a:hover {
+      background: #b4f3f3;
+      color: #024e76;
+      border-radius: 15px;
+      text-shadow: none;
+
+    }
+
+    .flex-row1{
+      display: inline-flex;
+    }
+  
+    .divCard{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      height: 45%;
+      width: 120%;
+      margin-left: -458%;
+      margin-top: 150%;
+    }
+
+    .divb{
+      display: flex;
+      position: relative;
+      text-align: center;
+      font-size: 20px;       
+      top: -30px; 
+      left: 20%;  
+      font-weight: bold;
+      width: 80%;
+      text-shadow: 3px 2px #000000;
+    }
+
+    .divCard1{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      height: 45%;
+      width: 90%;
+      margin-top: -84%;
+      margin-left: -310%;
+    }
+
+    .divc{
+      display: flex;
+      position: relative;
+      text-align: center;
+      font-size: 20px; 
+      top: -30px; 
+      left: 10px; 
+      bottom: -20px;  
+      font-weight: bold;
+      text-shadow: 3px 2px #000000;
+    }
+
+    .section-title-contact {
+      display: flex;
+      width: 25%;
+      padding: 1%;
+      margin: -5%;
+      color: #024e76;
+      text-align: center;
+      font-size: 175%;
+    }
+    
+    .contact-border {
+      border-right: 3px solid #024e76;
+      min-height: -10vh
+    }
+  
+    .flex-row2{
+      display: inline-flex;
+      width: 50%;
+      margin-top: 8%;
+    }
+
+    section div ul{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 180%;  
+      margin-left: 8%;
+   }
+  
+
+    section div ul li{
+      display: flex;
+      font-size: 150%;
+      margin: 4%;
+      margin-top: 0%;
+      color: #024e76;
+      font-family: Arial, Helvetica, sans-serif; 
+      text-decoration: underline;    
+      text-shadow: 0 0 1% rgba(0, 0, 0, 0.5);
+}
+
+section div ul li a{
+  color: #024e76;
+}
+
+
+/* Media Screen 1200 Ends Here */
+@media screen and (max-width: 1200px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 260%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .top-bg {
+    padding: 30px 15px;
+  }
+
+  .top-bg img{
+    display: flex;
+    width: 30%;
+  }
+
+  .top-bg div{
+    padding: 30px 15px;
+  }
+
+  .top-bg div h2{
+    width: 100%;
+    font-size: 30px;
+  }
+   
+  section div h2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20%;
+    font-size: 200%;    
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 8%;
+    width: 100%;
+  }
+
+  section div{
+    width: 100%; 
+  }
+  
+  .section-title{
+    width: 14%;
+  }
+
+  .section-title-work{
+    width: 14%;
+  }
+
+  .diva{
+    font-size: 150%;
+  }
+  
+  .divCard{
+    display: block;
+    height: 100%;
+    width: 150%;
+    margin-left: -370%;  
+    margin-top: 132%;
+  }
+
+  .divb{
+    display: flex;
+    position: relative;
+    text-align: center;
+    font-size: 20px;       
+    top: -30px; 
+    left: 20%;  
+    font-weight: bold;
+    width: 80%;
+    text-shadow: 3px 2px #000000;
+  }
+
+  .divCard1{
+    display: block;
+    height: 100%;
+    width: 150%;
+    margin-top: -162%;
+    margin-left: -250%;
+  }
+
+  .section-title-contact {
+    width: 65%;
+    font-size: 180%;
+    padding: -10%;
+  }
+
+  .contact-border{
+    margin-left: -5%;
+  }
+
+  section div ul{
+   display: flex;
+    width: 300%;
+    margin-left: -12%;
+ }
+
+  section div ul li{
+    padding-right: -5%;
+}
+/* Media Screen 1200 Ends Here */
+
+/* Media Screen 980 Starts Here */
+@media screen and (max-width: 980px)  {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 200%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .top-bg {
+    padding: 30px 15px;
+  }
+
+  .top-bg img{
+    display: flex;
+    width: 30%;
+  }
+
+  .top-bg div{
+    padding: 30px 15px;
+  }
+
+  .top-bg div h2{
+    width: 100%;
+    font-size: 30px;
+  }
+   
+  section div h2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20%;
+    font-size: 200%;    
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 8%;
+    width: 100%;
+  }
+
+  section div{
+    width: 100%; 
+  }
+  
+  .section-title{
+    width: 14%;
+  }
+
+  .section-title-work{
+    width: 14%;
+  }
+
+
+  .flex-row{
+    display: flex;
+  }
+
+  .divCard{
+    display: block;
+    height: 100%;
+    width: 200%;
+    margin-left: -820%;  
+    margin-top: 325%;
+  }
+
+  .divb{
+    display: flex;
+    position: relative;
+    text-align: center;
+    font-size: 20px;       
+    top: -30px; 
+    left: 20%;  
+    font-weight: bold;
+    width: 80%;
+    text-shadow: 3px 2px #000000;
+  }
+
+  .divCard1{
+    display: block;
+    height: 100%;
+    width: 200%;
+    margin-top: -400%;
+    margin-left: -375%;
+  }
+
+
+  .section-title-contact {
+    width: 55%;
+    font-size: 180%;
+  }
+
+  .contact-border{
+    margin-left: 5%;
+  }
+
+  section div ul{
+   display: flex;
+   width: 300%;
+
+ }
+
+  section div ul li{
+    padding-right: -5%;
+}
+
+}
+/* Media Screen 980 Ends Here */
+
+/* Media Screen 768 Starts Here */
+@media screen and (max-width: 768px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .top-bg {
+    padding: 30px 15px;
+  }
+
+  .top-bg img{
+    display: flex;
+    width: 30%;
+  }
+
+  .top-bg div{
+    padding: 30px 15px;
+  }
+
+  .top-bg div h2{
+    width: 100%;
+    font-size: 20px;
+  }
+   
+  section div h2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20%;
+    font-size: 200%;    
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 8%;
+    width: 100%;
+  }
+
+  section div{
+    width: 100%; 
+  }
+  
+  .section-title{
+    width: 14%;
+  }
+
+  section div p { 
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 80%;
+  }
+
+  .section-title-work{
+    width: 14%;
+  }
+
+  .section-title-contact {
+    width: 20%;
+    font-size: 180%;
+  }
+
+  .contact-border{
+    margin-left: 5%;
+  }
+
+  section div ul{
+   display: flex;
+   width: 80%;
+ }
+
+  section div ul li{
+    padding-right: -25%;
+    margin-left: 5%;
+}
+}
+/* Media Screen 768 Ends Here */
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 50%;
+  }
+
+  .top-bg {
+    padding: 30px 15px;
+  }
+
+  .top-bg img{
+    display: flex;
+    width: 30%;
+  }
+
+  .top-bg div{
+    padding: 30px 15px;
+  }
+
+  .top-bg div h2{
+    width: 100%;
+    font-size: 15px;
+  }
+   
+  section div h2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20%;
+    font-size: 200%;    
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 8%;
+    width: 100%;
+  }
+
+  section div{
+    width: 100%; 
+  }
+  
+  .section-title{
+    width: 61%;
+    font-size: 120%;
+  }
+
+  section div p { 
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 80%;
+    font-size: 50%;
+  }
+
+
+  .section-title-work{
+    width: 61%;
+    font-size: 120%;
+  }
+
+  section div img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+    max-height: 100%;
+    object-fit: cover;
+    margin-left: 4%;
+    margin-top: 0%;
+    border-style: solid;
+    border-width: 2%;
+    border-radius: 10px;
+    }
+
+  .diva{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 20%;
+    position: relative;
+    text-align: center;
+    top: -18%;
+    left: 32%;
+    font-size: 17px;
+    width: 20%;
+  }
+  .section-title-contact {
+    width: 57%;
+    font-size: 120%;
+  }
+
+  .contact-border{
+    margin-left: 5%;
+  }
+
+  section div ul{
+   display: flex;
+   font-size: 50%;
+
+ }
+
+  section div ul li{
+    padding-right: -5%;
+
+}
+}
+
