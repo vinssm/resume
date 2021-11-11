@@ -5,4 +5,5 @@
 ### This contains about me, work, contact me and resume sections in it.
 
 ### When you click on each nav link it shoud take you to that perticular section. 
-<img width="785" alt="photo" src="https://user-images.githubusercontent.com/26659001/141301967-81e43dab-67db-4da8-b5bb-b043b0332289.png">
+
+<img width="907" alt="tumbnail" src="https://user-images.githubusercontent.com/26659001/141302009-446a6070-00fb-4c2d-ac0c-46dd746b65dd.png">
